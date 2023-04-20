@@ -1,31 +1,13 @@
 #myvideo{
-    overflow:hidden;
+  overflow:hidden;
 
 }
 h1{  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    
+  text-align: center;
+  
 }
 body { text-align: center;}
 
-.menu {
-    background-color: rgba(3, 198, 247, 0.8);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-  }
-  
-  .menu a {
-    text-decoration: none;
-    color: navy;
-    font-size: 20px;
-    margin-right: 20px;
-  }
-  body{color:rgb(1, 8, 14)}
-  
+
+body{color:rgb(1, 8, 14)}
 
