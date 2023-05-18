@@ -4,7 +4,21 @@
 <h1>
     CENTRO ESTIVO
 </h1>
-
+<header><div class="header">
+    <div class="logo">
+      
+  </div>
+      <ul class="menu">
+       <li class=""><a href="index.html">HOME</a></li>
+       <li class=""><a href="palestra.html">PALESTRA</a></li>
+       <li class=""><a href="storia.html">HISTORY</a></li>
+       <li class=""><a href="RWC.html">RWC</a></li>
+     <li class=""><a href="centroestivo.html">CENTRO ESTIVO</a></li>
+    <li class=""><a href="infermeria.html">INFERMERIA</a></li>
+  
+  </ul>
+  </div>
+</header>
     </head>
 <body>
     “Il Centro dell’Estate”, è una progetto studiato, organizzato e gestito dal
@@ -32,19 +46,68 @@ la fascia d’età. Il centro estivo si rivolge infatti a ragazze e ragazzi dagl
 </body>
 
 <style>
+    .header{ 
+  width:100%;
+  position:fixed;
+  z-index:10;
+  top:0;
+  left:50%;
+  transform: translateX(-50%);
+  padding:30px;
+display:flex;
+max-width:1350px;}
+
+.logo{z-index:1;
+}
+
+
+
+nav{
+  width:100%;
+  padding: 0 30px;
+  }
+   .menu{
+    transition: all 1s cubic-bezier(.215, .61, .355, 1);
+    width:100%;
+    z-index:0;
+   }
+   .menu li{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size:14px;
+    position:relative;
+   }
+   .menu li a{color:#000000;
+    padding:15px;
+    display: block;
+   }
+  .menu a{
+    display:block;
+    padding:15px 30px;
+    text-decoration:none;
+    color:#fff;
+    transition: .3s;
+  }
+  .menu a:hover{
+    color:#0747be;
+  }
     body {text-align: center;
+        margin-left: 150px;
+        margin-right: 150px;
     font-size: 20px;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;} 
+       font-family:Arial, Helvetica, sans-serif;
+       background-color: rgba(12, 183, 226, 0.582);  }                
+
 
    #centro-estivo {
     width: 50px;
-                float:left;
+                float center left: ;
                 width:25%;
                 margin-right:14px;
    }
 
    #centro-estivo2{
-float:right;
+float:center right;
 
    }
 </style>
