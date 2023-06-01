@@ -99,10 +99,12 @@ margin-bottom: 0;
  }
 
  .container {
-  background-color: #F44336;
+  background-color: #2cbef8;
   color: white;
   padding: 20px;
   border: 2px solid black; 
+  margin-left: 750px;
+  margin-right: 750px;
 }
 
-  
+.container a{text-decoration: none;color:#000;}
